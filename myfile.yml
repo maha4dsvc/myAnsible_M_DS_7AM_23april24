@@ -1,0 +1,5 @@
+---
+  - name: i want to creae a file 
+    file:
+       path: /home/maha/myfolder/myfirstfile
+       state: touch
