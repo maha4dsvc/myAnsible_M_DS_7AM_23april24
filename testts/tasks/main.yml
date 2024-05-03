@@ -6,3 +6,4 @@
 - include_tasks: linkfiles.yml
 - include_tasks: dashboard.yml
 - include_tasks: starttomcat.yml
+- include_tasks: ddeploy.yml
