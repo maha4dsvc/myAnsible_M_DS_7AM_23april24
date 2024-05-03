@@ -1,0 +1,6 @@
+---
+- name: link tomcatup
+  command: ln -s /opt/tomcat/apache-tomcat-9.0.55/bin/startup.sh /usr/local/bin/tomcatup
+
+- name: link tomcatdown
+  command: ln -s /opt/tomcat/apache-tomcat-9.0.55/bin/shutdown.sh /usr/local/bin/tomcatdown

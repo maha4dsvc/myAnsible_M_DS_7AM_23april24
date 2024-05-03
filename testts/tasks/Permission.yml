@@ -1,0 +1,6 @@
+---
+- name: execute Permission on startup
+  command: chmod +x /opt/tomcat/apache-tomcat-9.0.55/bin/startup.sh
+
+- name: execute Permission on startup
+  command: chmod +x /opt/tomcat/apache-tomcat-9.0.55/bin/shutdown.sh
