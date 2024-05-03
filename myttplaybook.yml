@@ -1,5 +1,0 @@
----
-- hosts: myappservers
-  become: yes
-  roles:
-  - {role: testts,  when: ansible_os_family=="RedHat" }

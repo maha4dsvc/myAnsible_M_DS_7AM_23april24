@@ -1,3 +1,0 @@
----
- - name: execute Permission on startup
-   command: /usr/local/bin/tomcatup
